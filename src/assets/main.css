@@ -1,0 +1,78 @@
+@import './base.css';
+
+body {
+  background-color:rgb(230, 199, 112);
+  color:black;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 2% auto;
+}
+
+.bookImage {
+  width: 30%;
+  height: 40%;
+}
+
+.bookTitle {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.bookAuthor {
+  font-size: 1.2rem;
+}
+
+.bookButton {
+  background-color:rgb(230, 199, 112);
+  color: #000000;
+  border: solid 1px rgb(0, 0, 0);
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5%;
+  margin: 0.5rem;
+}
+
+.bookList {
+  display: flex;
+  justify-content: wrap;
+  flex-wrap: wrap;
+  margin: 10px;
+  max-width: 100%;
+}
+
+.bookCard {
+  width: 30%;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: rgb(132, 92, 6);
+}
+
+.bookCount {
+  font-size: 1.5rem;
+  text-align: center;
+}
